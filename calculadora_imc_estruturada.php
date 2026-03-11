@@ -1,7 +1,14 @@
 <?php
 
-$peso = 68;
-$altura = 1.65;
-$imc =  number_format($peso / ($altura*$altura));
+$joaoNome = "João Filho";
+$joaoPeso = 80;
+$joaoAltura = 1.15;
+$joaoImc = number_format($joaoPeso / ($joaoAltura),2, ',', '.');
+echo "O IMC de $joaoNome é $joaoImc. <br>";
 
-echo "O valor do IMC é $imc <br>";
+$mariaNome = "João Filho";
+$mariaPeso = 80;
+$mariaAltura = 1.15;
+$mariaImc = number_format($mariaPeso / ($mariaAltura),2, ',', '.');
+echo "O IMC de $mariaNome é $mariaImc. <br>";
+
